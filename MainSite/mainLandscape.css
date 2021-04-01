@@ -146,14 +146,17 @@ body {
         .s3_box1 {
             background-color: lightgrey;
             width: 31%;
+            cursor: pointer;
         }
         .s3_box2 {
             background-color: lightgrey;
             width: 31%;
+            cursor: pointer;
         }
         .s3_box3 {
             background-color: lightgrey;
             width: 31%;
+            cursor: pointer;
         }
 
             /* midlertidig  */

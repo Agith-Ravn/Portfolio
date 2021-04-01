@@ -57,15 +57,18 @@ body {
     }
         .s1_box1 {
             background-color: lightgrey;
-            width: 31%;
+            height: 30%;
+            width: 100%;
         }
         .s1_box2 {
             background-color: lightgrey;
-            width: 31%;
+            height: 30%;
+            width: 100%;
         }
         .s1_box3 {
             background-color: lightgrey;
-            width: 31%;
+            height: 30%;
+            width: 100%;
         }
 
             /* midlertidig  */

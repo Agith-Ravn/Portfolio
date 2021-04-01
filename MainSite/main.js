@@ -18,3 +18,6 @@ function myFunction() {
     }
   }
 
+  function openPage(url) {
+    window.location = url
+  }
