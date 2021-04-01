@@ -17,9 +17,12 @@ body {
     justify-content: center;
     width: 100vw;
 }
+
+#header2 {display: none;}
+
     header div {
-        margin: 1vh 5vw;
-        
+        margin: 1.25vh 5vw;
+
     }
     header div a {
         text-decoration: none;
@@ -110,7 +113,7 @@ body {
                 width: 30vw;
             }
             /* Tom box som mellomrom */
-            .s2_box2_2 { 
+            .s2_box2_2 {
                 background-color: rgba(255, 0, 0, 0);
                 height: 100%;
                 width: 2.5vw;
@@ -121,56 +124,44 @@ body {
                 width: 60vw;
             }
 
+            /* mildertidig */
+            .s2_contanier div {
+                font-size: 2rem;
+            }
 
 #section3 {
     height: 90vh;
     background-color: rgb(255, 255, 255);
     padding: 5vh 0 5vh 0;
-}        
+}
+
     .s3_container {
-        width: 90vw;
-        margin: auto;
-        font-size: 1.5vw;
-        height: 80%;
-        display: flex;
-        justify-content: space-around;
+    width: 90vw;
+    margin: auto;
+    font-size: 1.5vw;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
     }
         .s3_box1 {
             background-color: lightgrey;
-            width: 30%;
+            width: 31%;
         }
         .s3_box2 {
             background-color: lightgrey;
-            width: 30%;
+            width: 31%;
         }
         .s3_box3 {
             background-color: lightgrey;
-            width: 30%;
+            width: 31%;
         }
 
-        .s3_container {
-        width: 90vw;
-        margin: auto;
-        font-size: 1.5vw;
-        height: 90%;
-        display: flex;
-        justify-content: space-around;
-    }
-        .s3_box1 {
-            background-color: lightgrey;
-            width: 30%;
-        }
-        .s3_box2 {
-            background-color: lightgrey;
-            width: 30%;
-        }
-        .s3_box3 {
-            background-color: lightgrey;
-            width: 30%;
-        }
+            /* midlertidig  */
+            .s3_container a {
+                font-size: 2rem;
+            }
 
 
-    
 #section4 {
     height: 60vh;
     background-color: rgb(255, 255, 255);
@@ -186,7 +177,7 @@ body {
     }
         .s4_box1 {
             margin: 0 0 2vw 0;
-        } 
+        }
 
     footer {
 
@@ -205,3 +196,6 @@ body {
         height: auto;
         margin: auto;
     }
+
+
+
