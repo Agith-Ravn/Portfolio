@@ -52,7 +52,7 @@
     
 
     .s2_contanier {
-        width: 80vw;
+        width: 90vw;
         margin: auto;
         font-size: 1.5vw;
         height: 80%;
@@ -60,7 +60,7 @@
     }
 
     .s2_box2 {
-        width: 80vw;
+        width: 90vw;
     }
     
     
@@ -76,21 +76,25 @@
         font-size: 1.5vw;
         height: 90%;
         display: flex;
+        flex-direction: column;
         justify-content: space-around;
         }
             .s3_box1 {
                 background-color: lightgrey;
-                width: 31%;
+                height: 30%;
+                width: 100%;
             }
             .s3_box2 {
                 background-color: lightgrey;
-                width: 31%;
+                height: 30%;
+                width: 100%;
             }
             .s3_box3 {
                 background-color: lightgrey;
-                width: 31%;
+                height: 30%;
+                width: 100%;
+                margin-bottom: 40px;
             }
-    
     
         
     #section4 {

@@ -1,0 +1,78 @@
+@font-face { font-family: Azonix; src: url('Azonix.otf'); }
+
+/* Store skjermer */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    font-size: 1.5vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: #5419fe;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+#header2 {display: none;}
+
+    header div {
+        margin: 1.25vh 5vw;
+
+    }
+    header div a {
+        text-decoration: none;
+        color: white;
+    }
+
+
+/*  Blir brukt på section 2, 3, 4 */
+.tittle {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5vw;
+    margin: 2.5vh 0 2.5vh 0;
+    text-align: center;
+    font-weight: 200;
+}
+
+
+#section1 {
+    height: 90vh;
+    background-color: rgb(255, 255, 255);
+    padding: 5vh 0 5vh 0;
+}
+
+    .s1_container {
+    width: 90vw;
+    margin: auto;
+    font-size: 1.5vw;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    }
+        .s1_box1 {
+            background-color: lightgrey;
+            width: 31%;
+        }
+        .s1_box2 {
+            background-color: lightgrey;
+            width: 31%;
+        }
+        .s1_box3 {
+            background-color: lightgrey;
+            width: 31%;
+        }
+
+            /* midlertidig  */
+            .s1_container a {
+                font-size: 2rem;
+            }
+
+
+
+
