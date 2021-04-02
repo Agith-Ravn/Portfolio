@@ -16,6 +16,8 @@ body {
     display: flex;
     justify-content: center;
     width: 100vw;
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+
 }
 
 #header2 {display: none;}
