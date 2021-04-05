@@ -38,7 +38,7 @@ body {
 .mainTitle {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2.5vw;
-    margin: 13vh 0 2vh 0; /* Må forandres */
+    margin: 13vh 0 7vh 0; /* Må forandres */
     text-align: center;
     font-weight: 200;
 }
@@ -66,7 +66,7 @@ body {
 .img_container1 {
   width: 90vw;
   height: 60vh;
-  margin: auto;
+  margin: 5vh auto 3vh auto;
   display: flex;
   flex-wrap: wrap;
 }
@@ -77,32 +77,58 @@ body {
   }
   
 .img_container2 {
-  width: auto;
-  height: 60vh;
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap;
+  width: inherit;
+  height: auto;
+  margin: 5vh 0 0 0;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  justify-content: space-evenly;
 }
 
-  .img_container2 img {
-    max-width: auto;
-    max-height: auto;
-  }
-
-  .img_container3 {
-    width: 30vw;
+  .img_container2 .img1 {
+    width: 29vw;
     height: 60vh;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
   }
 
-    .img_container3 img {
-      max-width: auto;
-      max-height: auto;
+    .img_container2 .img1 img{
+      width: 29vw;
+      height: 60vh;
+      object-fit: cover;
+      background-color: lightgrey;
     }
 
+  .img_container2 .img2 {
+    width: 22vw;
+    height: 60vh;
+  }
 
+    .img_container2 .img2 img{
+      width: 22vw;
+      height: 60vh;
+      object-fit: cover;
+      background-color: lightgrey;
+    }
+
+  .img_container3 {
+    width: 28vw;
+    height: 60vh;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+  }
+
+    .img_container3 div {
+      width: 28vw;
+      height: 28vh;
+    }
+
+    .img_container3 div img{
+      width: 28vw;
+      height: 28vh;
+      object-fit: contain;
+      background-color: lightgrey;
+    }
 
 /* Slideshow */
 * {box-sizing: border-box}

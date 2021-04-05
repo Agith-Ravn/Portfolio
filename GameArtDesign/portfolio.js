@@ -13,9 +13,11 @@ window.onscroll = function() {
 
 /* Slideshow */
 var slideIndex = [1,1];
-var slideId = ["mySlides1", "mySlides2"]
+var slideId = ["mySlides1", "mySlides2", "mySlides3"]
 showSlides(1, 0);
 showSlides(1, 1);
+showSlides(1, 2);
+
 
 function plusSlides(n, no) {
   showSlides(slideIndex[no] += n, no);
