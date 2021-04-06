@@ -1,0 +1,23 @@
+@media (max-width: 700px) {
+
+    #header {
+        display: none;
+    }
+    
+    #header2 {
+        font-size: 1.3rem;
+        background-color: #5419fe;
+        color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 50px;
+        height: 59px;
+        display: block;
+        text-align: center;
+        z-index: 99;
+        
+    
+    }  
+
+}
