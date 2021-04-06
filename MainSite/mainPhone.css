@@ -170,18 +170,75 @@
                 background-color: lightgrey;
                 height: 30%;
                 width: 100%;
+
+                background-color: lightgray;
+                background-image: url("");
+                background-repeat: no-repeat;
+                background-size: auto;
+                background-size: cover;
             }
+
+                .s3_box1 p {
+                    font-size: 4vw;
+                    font-variant: small-caps;
+                    margin-top: 1.5vh;
+                    position: relative;
+                    top: 22.6vh;
+                    width: auto;
+                    margin: auto;
+                    color: white;
+                    background: rgba(0, 0, 0, 0.6);
+                    border-radius: 5px;
+                }
+
             .s3_box2 {
                 background-color: lightgrey;
                 height: 30%;
                 width: 100%;
-            }
+                
+                background-image: url("../annet/Portfolio/portfolio_img2.3.jpg");
+                background-repeat: no-repeat;
+                background-size: auto;
+                background-size: cover;
+            }   
+
+                .s3_box2 p {
+                    font-size: 4vw;
+                    font-variant: small-caps;
+                    margin-top: 1.5vh;
+                    position: relative;
+                    top: 22.6vh;
+                    width: auto;
+                    margin: auto;
+                    color: white;
+                    background: rgba(0, 0, 0, 0.6);
+                    border-radius: 5px;
+                }
+
             .s3_box3 {
                 background-color: lightgrey;
                 height: 30%;
                 width: 100%;
                 margin-bottom: 40px;
+
+                background-image: url("../annet/Portfolio/portfolio_img1.3.jpg");
+                background-repeat: no-repeat;
+                background-size: auto;
+                background-size: cover;
             }
+
+                .s3_box3 p {
+                    font-size: 4vw;
+                    font-variant: small-caps;
+                    margin-top: 1.5vh;
+                    position: relative;
+                    top: 22.6vh;
+                    width: auto;
+                    margin: auto;
+                    color: white;
+                    background: rgba(0, 0, 0, 0.6);
+                    border-radius: 5px;
+                }
 
     #section4 {
         height: 80vh;

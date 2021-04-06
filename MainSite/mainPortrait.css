@@ -64,7 +64,7 @@
     
     
     #section3 {
-        height: 100vh;
+        height: 90vh;
         background-color: rgb(255, 255, 255);
         padding: 5vh 0 5vh 0;
     }        
@@ -82,17 +82,74 @@
                 background-color: lightgrey;
                 height: 30%;
                 width: 100%;
+
+                background-color: lightgray;
+                background-image: url("");
+                background-repeat: no-repeat;
+                background-size: auto;
+                background-size: cover;
             }
+
+                .s3_box1 p {
+                    font-size: 2vw;
+                    font-variant: small-caps;
+                    margin-top: 1.5vh;
+                    position: relative;
+                    top: 21vh;
+                    width: 300px;
+                    margin: auto;
+                    color: white;
+                    background: rgba(0, 0, 0, 0.6);
+                    border-radius: 5px;
+                }
+
             .s3_box2 {
                 background-color: lightgrey;
                 height: 30%;
                 width: 100%;
+
+                background-image: url("../annet/Portfolio/portfolio_img2.2.jpg");
+                background-repeat: no-repeat;
+                background-size: auto;
+                background-size: cover;
             }
+
+                .s3_box2 p {
+                    font-size: 2vw;
+                    font-variant: small-caps;
+                    margin-top: 1.5vh;
+                    position: relative;
+                    top: 21vh;
+                    width: 300px;
+                    margin: auto;
+                    color: white;
+                    background: rgba(0, 0, 0, 0.6);
+                    border-radius: 5px;
+                }
+
             .s3_box3 {
                 background-color: lightgrey;
                 height: 30%;
                 width: 100%;
+
+                background-image: url("../annet/Portfolio/portfolio_img1.2.jpg");
+                background-repeat: no-repeat;
+                background-size: auto;
+                background-size: cover;
             }
+
+                .s3_box3 p {
+                    font-size: 2vw;
+                    font-variant: small-caps;
+                    margin-top: 1.5vh;
+                    position: relative;
+                    top: 21vh;
+                    width: 300px;
+                    margin: auto;
+                    color: white;
+                    background: rgba(0, 0, 0, 0.6);
+                    border-radius: 5px;
+                }
     
         
     #section4 {
