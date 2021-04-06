@@ -9,7 +9,7 @@ body {
 }
 
 #header {
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
     background-color: #5419fe;
@@ -207,8 +207,6 @@ body {
                 font-variant: small-caps;
                 margin-top: 1.5vh;
             }
-
-
 
 #section4 {
     padding-top: 10vh;
