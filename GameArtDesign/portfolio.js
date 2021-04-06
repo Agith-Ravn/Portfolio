@@ -34,7 +34,7 @@ function showSlides(n, no) {
   var x = document.getElementsByClassName(slideId[no]);
 
   if (n > x.length) {slideIndex[no] = 1}    
-  if (n < 6) {slideIndex[no] = x.length}
+  if (n < 0) {slideIndex[no] = x.length}
   for (i = 0; i < x.length; i++) {
      x[i].style.display = "none";  
   }
