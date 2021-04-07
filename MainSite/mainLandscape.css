@@ -90,6 +90,7 @@ body {
     background-color: rgb(255, 255, 255);
     padding: 5vh 0 5vh 0;
 }
+
     .s2_contanier {
         width: 70vw;
         margin: auto;
@@ -103,6 +104,7 @@ body {
             height: 30%;
             margin: 0 0 2vw 0;
         }
+
         .s2_box2 {
             height: 70%;
             width: 70vw;
@@ -114,12 +116,14 @@ body {
                 height: 100%;
                 width: 30vw;
             }
+
             /* Tom box som mellomrom */
             .s2_box2_2 {
                 background-color: rgba(255, 0, 0, 0);
                 height: 100%;
                 width: 2.5vw;
             }
+            
             .s2_box2_3 {
                 background-color: lightgrey;
                 height: 100%;
