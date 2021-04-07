@@ -14,7 +14,6 @@ a {
 
 #header {
     font-size: 1.3vw;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
     background-color: #5419fe;
     position: fixed;
@@ -39,9 +38,8 @@ a {
     }
 
 
-/*  Blir brukt på section 2, 3, 4 */
+/*  Blir brukt på section 2, 3, 4 osv*/
 .mainTitle {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2.5vw;
     margin: 13vh 0 7vh 0; /* Må forandres */
     text-align: center;
@@ -70,21 +68,24 @@ a {
 
 .img_container1 {
   width: 90vw;
-  height: 60vh;
-  margin: 5vh auto 10vh auto;
+  /* height: 60vh; */
+  /* margin: 5vh auto 10vh auto; */
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
 }
 
   .img_container1 img {    
     width: 50%;
+    height: auto;
     padding: 5px;
   }
   
 .img_container2 {
   width: inherit;
   height: auto;
-  margin: 5vh 0 4vh 0;
+  /* margin: 5vh 0 4vh 0; */
+  margin: auto;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 10px;
@@ -150,12 +151,12 @@ body {font-family: Verdana, sans-serif; margin:0}
 img {vertical-align: middle;
     object-fit: scale-down;
     max-width: 1200px;
-    height: 70vh;}
+    height: 55vh;}
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 1200px;
-  height: 70vh;
+  height: 55vh;
   position: relative;
   margin: auto;
 }
