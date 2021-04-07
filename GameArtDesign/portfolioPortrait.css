@@ -23,7 +23,7 @@
     }
 
     .mainTitle {
-        font-size: 4vw;
+        font-size: 4.5vw;
         margin: 13vh 0 2vh 0; /* Må forandres */
         text-align: center;
         font-weight: 200;
@@ -31,7 +31,8 @@
 
         .title {
             text-align: center;
-            font-size: 2vw;
+            font-size: 2.3vw;
+            font-weight: 500;
             letter-spacing: 1px;
             margin: 2vh auto 2vh auto;
         }
@@ -120,7 +121,6 @@
 
     /* Slideshow */
     * {box-sizing: border-box}
-    body {font-family: Verdana, sans-serif; margin:0}
     .mySlides {display: none}
     img {vertical-align: middle;
         object-fit: scale-down;

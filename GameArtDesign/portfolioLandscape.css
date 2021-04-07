@@ -1,4 +1,4 @@
-@font-face { font-family: Azonix; src: url('Azonix.otf'); }
+@font-face { font-family: Azonix; src: url('../annet/Azonix.otf'); }
 
 /* Store skjermer */
 body {
@@ -146,7 +146,6 @@ a {
 
 /* Slideshow */
 * {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
 img {vertical-align: middle;
     object-fit: scale-down;

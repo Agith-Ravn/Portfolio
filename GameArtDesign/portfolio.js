@@ -40,3 +40,8 @@ function showSlides(n, no) {
   }
   x[slideIndex[no]-1].style.display = "block";  
 }
+
+//Åpne annen side
+function openPage(url) {
+  window.location = url
+}

@@ -31,7 +31,7 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
 }
 
-
+//Åpne annen side
 function openPage(url) {
   window.location = url
 }

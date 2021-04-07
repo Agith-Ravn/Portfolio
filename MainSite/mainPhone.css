@@ -10,7 +10,6 @@
         color: white;
         position: fixed;
         display: block;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }  
    
         .dropbtn {
@@ -61,7 +60,6 @@
         height: 100vh;
         background-color: rgb(20, 20, 20);
         color: white;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         margin-bottom: 50px;
     }
         .s1_contanier {
@@ -99,8 +97,7 @@
             }
         
     .tittle {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 2rem;
+        font-size: 7vw;
         padding: 20px 0 20px 0;
         margin: 0;
         text-align: center;
@@ -161,6 +158,7 @@
         width: 90vw;
         margin: auto;
         font-size: 1.5vw;
+        font-weight: 200;
         height: 90%;
         display: flex;
         flex-direction: column;
@@ -180,7 +178,8 @@
 
                 .s3_box1 p {
                     font-size: 4vw;
-                    font-variant: small-caps;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
                     margin-top: 1.5vh;
                     position: relative;
                     top: 22.6vh;
@@ -204,7 +203,8 @@
 
                 .s3_box2 p {
                     font-size: 4vw;
-                    font-variant: small-caps;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
                     margin-top: 1.5vh;
                     position: relative;
                     top: 22.6vh;
@@ -229,7 +229,8 @@
 
                 .s3_box3 p {
                     font-size: 4vw;
-                    font-variant: small-caps;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
                     margin-top: 1.5vh;
                     position: relative;
                     top: 22.6vh;
