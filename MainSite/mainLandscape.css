@@ -1,6 +1,9 @@
 @font-face { font-family: Azonix; src: url('../annet/Azonix.otf'); }
 
-/* Store skjermer */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
