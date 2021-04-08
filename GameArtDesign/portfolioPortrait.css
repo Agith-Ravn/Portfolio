@@ -42,6 +42,15 @@
             color: black;
         }
 
+        .section__description {
+            text-align: center;
+            font-size: 2vw;
+        }
+              
+            .section__description a {
+              text-decoration: underline;
+            }
+
     .img_container1 {
         width: 90vw;
         height: auto;

@@ -50,6 +50,15 @@
         font-size: 4vw;
         letter-spacing: 1px;
     }
+    
+        .section__description {
+            text-align: center;
+            font-size: 3vw;
+        }
+            
+            .section__description a {
+            text-decoration: underline;
+            }
 
     .title a {
       text-decoration: none;
