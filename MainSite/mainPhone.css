@@ -121,7 +121,7 @@
             .s2_box1 {
                 background-color: lightgrey;
                 height: 33%;
-                margin: 0 0 10px 0;
+                margin: 0 0 1.3vh 0;
             }
             .s2_box2 {
                 height: 70%;
@@ -134,18 +134,18 @@
                     height: 50%;
                     width: 90vw;
                     display: block;
+                    margin-bottom: 1.3vh;
                 }
-                /* Tom box som mellomrom */
-                .s2_box2_2 { 
-                    background-color: rgba(255, 0, 0, 0);
-                    height: 10px;
-                    
-                }
-                .s2_box2_3 {
+
+                .s2_box2_2 {
                     background-color: lightgrey;
                     height: 50%;
                     width: 90vw;
                 }
+
+                    .bar {
+                        
+                    }
 
     #section3 {
         height: 100vh;

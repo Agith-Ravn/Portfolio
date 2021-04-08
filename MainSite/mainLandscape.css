@@ -94,9 +94,9 @@ body {
     .s2_contanier {
         width: 70vw;
         margin: auto;
-        font-size: 1.5vw;
         height: 80%;
-        display:block
+        display:block;
+        font-size: 2vw;
     }
 
         .s2_box1 {
@@ -109,31 +109,24 @@ body {
             height: 70%;
             width: 70vw;
             display: flex;
+            justify-content: space-evenly;
+            
         }
 
             .s2_box2_1 {
                 background-color: lightgrey;
                 height: 100%;
                 width: 30vw;
-            }
-
-            /* Tom box som mellomrom */
-            .s2_box2_2 {
-                background-color: rgba(255, 0, 0, 0);
-                height: 100%;
-                width: 2.5vw;
+                margin-right: 2vw;
             }
             
-            .s2_box2_3 {
+            .s2_box2_2 {
                 background-color: lightgrey;
                 height: 100%;
                 width: 60vw;
+                font-size: 2vw;
             }
 
-            /* mildertidig */
-            .s2_contanier div {
-                font-size: 2rem;
-            }
 
 #section3 {
     height: 90vh;
