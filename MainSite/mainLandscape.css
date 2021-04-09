@@ -91,40 +91,31 @@ body {
     padding: 5vh 0 5vh 0;
 }
 
-    .s2_contanier {
-        width: 70vw;
+    .s2__about {
         margin: auto;
-        height: 80%;
-        display:block;
-        font-size: 2vw;
+        height: 85%;
+        width: 70vw;
+        display: flex;
+        justify-content: space-evenly;
     }
-
-        .s2_box1 {
+        .s2__personInfo {
             background-color: lightgrey;
-            height: 30%;
-            margin: 0 0 2vw 0;
+            height: 100%;
+            width: 60vw;
+            font-size: 2vw;
+            margin-right: 2vw;
         }
 
-        .s2_box2 {
-            height: 70%;
-            width: 70vw;
-            display: flex;
-            justify-content: space-evenly;
-            
+        .s2__skills {
+            background-color: lightgrey;
+            height: 100%;
+            width: 60vw;
+            font-size: 2vw;
         }
 
-            .s2_box2_1 {
-                background-color: lightgrey;
-                height: 100%;
-                width: 30vw;
-                margin-right: 2vw;
-            }
-            
-            .s2_box2_2 {
-                background-color: lightgrey;
-                height: 100%;
-                width: 60vw;
-                font-size: 2vw;
+            .skills__bar {
+                width: 90%;
+                background: #4538ff;
             }
 
 
