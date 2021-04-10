@@ -98,25 +98,48 @@ body {
         display: flex;
         justify-content: space-evenly;
     }
-        .s2__personInfo {
+        .s2__person-info-container {
             background-color: lightgrey;
             height: 100%;
             width: 60vw;
-            font-size: 2vw;
             margin-right: 2vw;
+            font-size: 1vw;
         }
 
-        .s2__skills {
+        .s2__skill-bar-container {
             background-color: lightgrey;
             height: 100%;
             width: 60vw;
-            font-size: 2vw;
+            font-size: 1vw;
         }
 
-            .skills__bar {
+            .skill-bar {
                 width: 90%;
-                background: #4538ff;
+                margin: 3vh 2vw;
+                display: flex;
+
             }
+
+                .skill-bar--topic {
+                    width: 5vw;
+                    margin-right: 0.5vw;
+                    text-align: center;
+                }
+
+                .skill-bar--fill-container {
+                    width: 20vw;
+                    margin-right: 0.5vw;
+                }
+
+                    .skill-bar--fill {
+                        background: #4538ff;
+                        width: 80%;
+                        height: 100%;
+                    }
+                    
+                .skill-bar--percentage {
+                    width: 3vw;                  
+                }
 
 
 #section3 {
