@@ -1,6 +1,10 @@
 /* mobil  */
 @media (max-width: 700px) {
 
+    .section-space {
+        height: 0vh;
+    }
+
     #header {
         display: none;
     }
@@ -114,34 +118,104 @@
             width: 90vw;
             height: 80%;
             margin: auto;
-            font-size: 1.5vw;
             display:block;
         }
     
-            .s2_box1 {
-                background-color: lightgrey;
-                height: 33%;
-                margin: 0 0 1.3vh 0;
-            }
-            .s2_box2 {
-                height: 70%;
-                width: 90vw;
-                display: block;
+        .s2__about {
+            margin: auto;
+            height: 85%;
+            width: 90vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 0 0;
+        }
+    
+        .about {
+            visibility: hidden;
+        }
+            .s2__person-info-container {
+                /* background-color: lightgrey; */
+                height: 100%;
+                width: 90%;
+                margin-right: 2vw;
+                font-size: 4vw;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 3vh;
             }
     
-                .s2_box2_1 {
-                    background-color: lightgrey;
-                    height: 50%;
-                    width: 90vw;
+                .s2__person-info__img-container {
+                    height: 40vw;
+                    width: 40vw;
+                    background-color: #5419fe;
+                    display: flex;
+                    align-items: center;
+                    border-radius: 50%;
+                    margin: 0 0 3vh 0;
+    
+                }
+    
+                .s2__person-info__img {
+                    width: 65%;
+                    height: auto;
                     display: block;
-                    margin-bottom: 1.3vh;
+                    margin: auto;
                 }
+    
+                .s2__person-info__text {
+                    text-align: center;
+                    width: 80%;
+                    margin: 0 auto 0 auto;
+                }
+    
+            .s2__skill-bar-container {
+                height: 100%;
+                width: 80%;
+                font-size: 3vw;
+                /* border: 1px solid black; */
+            }
+    
+            .title {
+                text-align: center;
+                font-size: 4.3vw;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                margin-bottom: 1vh;
+            }
+    
+                .skill-bar {
+                    width: 95%;
+                    margin: 1vh 1vw;
+                    display: flex;
+                    align-items: center;
+                }
+    
+                    .skill-bar--topic {
+                        width: 50vw;
+                        margin-right: 2vw;
+                        text-align: center;
+                        background: lightgray;
+                        padding: 0.5vh;
+                    }
+    
+                    .skill-bar--fill-container {
+                        width: 100%;
+                        background-color: #ddd;
+                    }
+                    
+                        .skill-bar--fill {
+                            text-align: right;
+                            padding: 0.5vh 0.5vh 0.5vh 0;
+                            color: white;
+                        }
 
-                .s2_box2_2 {
-                    background-color: lightgrey;
-                    height: 50%;
-                    width: 90vw;
-                }
+                        .placeholder {
+                            width: 99%;
+                            background-color: rgb(233, 233, 233);
+                        }
 
     #section3 {
         height: 100vh;
