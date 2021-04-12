@@ -134,6 +134,8 @@
     
         .about {
             visibility: hidden;
+            width: 0px;
+            margin: 0px;
         }
             .s2__person-info-container {
                 /* background-color: lightgrey; */
@@ -144,12 +146,12 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                margin: 3vh;
+                margin: 5vh;
             }
     
                 .s2__person-info__img-container {
-                    height: 40vw;
-                    width: 40vw;
+                    height: 30vw;
+                    width: 30vw;
                     background-color: #5419fe;
                     display: flex;
                     align-items: center;
@@ -173,7 +175,7 @@
     
             .s2__skill-bar-container {
                 height: 100%;
-                width: 80%;
+                width: 90%;
                 font-size: 3vw;
                 /* border: 1px solid black; */
             }
@@ -187,7 +189,7 @@
             }
     
                 .skill-bar {
-                    width: 95%;
+                    width: 100%;
                     margin: 1vh 1vw;
                     display: flex;
                     align-items: center;
@@ -312,40 +314,54 @@
                 }
 
     #section4 {
-        height: 80vh;
+        padding-top: 10vh;
+        height: 70vh;
         background-color: rgb(255, 255, 255);
+        
     }
-        .s4_contanier {
-            background: #dddddd;;
-            width: 80vw;
-            margin: auto;
-            font-size: 1.5vw;
-            height: 60vh;
-            padding: 2vw;
-            z-index: 99;
-        }
+    
             .s4_box1 {
-                margin: 0 0 2vw 0;
-            } 
+                margin: 0;
+            }
+    
+            #s4_links {
+                padding-top: 3vh;
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            #s4_links a {
+                text-decoration: none;
+                color: black;
+                padding: 3vw;
+                font-size: 5vw;
+                display: block;
+                font-weight: 300;
+            }
+    
+            #s4_links i {
+                padding: 1vw;
+            }
     
         footer {
-    
             height: 20vh;
+            width: 100%;
             background-color: rgb(20, 20, 20);
         }
     
         .f1_container {
-            padding: 5vh;
-    
+            padding: 6vh;
+            margin: 0;
         }
     
         footer img {
             display: block;
-            width: 5vw;
-            height: 100%;
+            width: auto;
+            height: 8vh;
             margin: auto;
         }
-            
             
             
             

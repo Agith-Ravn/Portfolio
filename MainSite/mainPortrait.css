@@ -51,12 +51,6 @@
         font-weight: 200;
     }
 
-    .tittle {
-        font-size: 4.5vw;
-        font-weight: 200;
-    }
-    
-
     .s2_contanier {
         width: 90vw;
         margin: auto;
@@ -78,6 +72,8 @@
 
     .about {
         visibility: hidden;
+        width: 0px;
+        margin: 0px;
     }
         .s2__person-info-container {
             /* background-color: lightgrey; */
@@ -132,7 +128,7 @@
 
             .skill-bar {
                 width: 95%;
-                margin: 2vh 1vw;
+                margin: 1.5vh 1vw;
                 display: flex;
                 align-items: center;
             }
@@ -143,7 +139,7 @@
                     margin-right: 0.5vw;
                     text-align: center;
                     background: lightgray;
-                    padding: 1vh;
+                    padding: 0.5vh;
                 }
 
 
@@ -155,12 +151,12 @@
 
                     .skill-bar--fill {
                         text-align: right;
-                        padding: 1vh 1vh 1vh 0;
+                        padding: 0.5vh 0.5vw 0.5vh 0;
                         color: white;
                     }
 
                     .placeholder {
-                        width: 98.5%;
+                        width: 100%;
                         background-color: rgb(233, 233, 233);
                     }
 
@@ -203,7 +199,7 @@
                     margin-top: 1.5vh;
                     position: relative;
                     top: 21vh;
-                    width: 400px;
+                    width: 40vw;
                     margin: auto;
                     color: white;
                     background: rgba(0, 0, 0, 0.6);
@@ -228,7 +224,7 @@
                     margin-top: 1.5vh;
                     position: relative;
                     top: 21vh;
-                    width: 400px;
+                    width: 40vw;
                     margin: auto;
                     color: white;
                     background: rgba(0, 0, 0, 0.6);
@@ -253,7 +249,7 @@
                     margin-top: 1.5vh;
                     position: relative;
                     top: 21vh;
-                    width: 400px;
+                    width: 40vw;
                     margin: auto;
                     color: white;
                     background: rgba(0, 0, 0, 0.6);
@@ -261,38 +257,52 @@
                 }
     
         
+
     #section4 {
+        padding-top: 10vh;
         height: 60vh;
         background-color: rgb(255, 255, 255);
+        
     }
-        .s4_contanier {
-            background: #dddddd;;
-            width: 60vw;
-            margin: auto;
-            font-size: 1.5vw;
-            height: 30vh;
-            padding: 2vw;
-            z-index: 99;
-        }
+    
             .s4_box1 {
-                margin: 0 0 2vw 0;
-            } 
+                margin: 0;
+            }
+    
+            #s4_links {
+                padding-top: 0vh;
+                margin: 0;
+                display: flex;
+                justify-content: center;
+            }
+            #s4_links a {
+                text-decoration: none;
+                color: black;
+                padding: 1rem;
+                font-size: 3vw;
+                display: block;
+                font-weight: 300;
+            }
+    
+            #s4_links i {
+                padding: 1vw;
+            }
     
         footer {
-    
             height: 20vh;
+            width: 100%;
             background-color: rgb(20, 20, 20);
         }
     
         .f1_container {
-            padding: 5vh;
-    
+            padding: 6vh;
+            margin: 0;
         }
     
         footer img {
             display: block;
-            width: 5vw;
-            height: auto;
+            width: auto;
+            height: 8vh;
             margin: auto;
         }
 }

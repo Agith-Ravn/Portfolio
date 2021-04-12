@@ -24,7 +24,7 @@ body {
     justify-content: center;
     width: 100vw;
     transition: top 0.3s; /* Transition effect when sliding down (and up) */
-
+    z-index: 99;
 }
 
 #header2 {display: none;}
@@ -301,38 +301,49 @@ body {
 
 #section4 {
     padding-top: 10vh;
-    height: 70vh;
+    height: 60vh;
     background-color: rgb(255, 255, 255);
     
 }
-    .s4_contanier {
-        background: #dddddd;;
-        width: 60vw;
-        margin: auto;
-        font-size: 1.5vw;
-        height: 30vh;
-        padding: 2vw;
-        z-index: 99;
-    }
+
         .s4_box1 {
-            margin: 0 0 2vw 0;
+            margin: 0;
+        }
+
+        #s4_links {
+            padding-top: 0vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        #s4_links a {
+            text-decoration: none;
+            color: black;
+            padding: 1rem;
+            font-size: 2vw;
+            display: block;
+            font-weight: 300;
+        }
+
+        #s4_links i {
+            padding: 1vw;
         }
 
     footer {
-
         height: 20vh;
+        width: 100%;
         background-color: rgb(20, 20, 20);
     }
 
     .f1_container {
-        padding: 5vh;
-
+        padding: 6vh;
+        margin: 0;
     }
 
     footer img {
         display: block;
-        width: 5vw;
-        height: auto;
+        width: auto;
+        height: 8vh;
         margin: auto;
     }
 
