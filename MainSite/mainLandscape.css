@@ -131,6 +131,7 @@ body {
                 height: auto;
                 display: block;
                 margin: auto;
+                color: blac;
             }
 
             .s2__person-info__text {
@@ -166,7 +167,7 @@ body {
                     margin-right: 0.5vw;
                     text-align: center;
                     background: lightgray;
-                    padding: 1vh;
+                    padding: 0.5vh;
                 }
 
                 .skill-bar--fill-container {
@@ -176,33 +177,33 @@ body {
 
                     .skill-bar--fill {
                         text-align: right;
-                        padding: 1vh 1vh 1vh 0;
+                        padding: 0.5vh 1vh 0.5vh 0;
                         color: white;
                     }
 
                     .html {
                         width: 90%; 
-                        background-color: #5419fe;
+                        background-color: rgb(22, 115, 238);
                     }
                     .css {
                         width: 80%; 
-                        background-color: #5419fe;
+                        background-color: rgb(22, 115, 238);
                     }
                     .js {
-                        width: 50%; 
-                        background-color: #5419fe;
+                        width: 60%; 
+                        background-color: rgb(22, 115, 238);
                     }
                     .photoshop {
                         width: 90%; 
-                        background-color: #5419fe;
+                        background-color: rgb(252, 132, 33);
                     }
                     .illustrator {
                         width: 70%; 
-                        background-color: #5419fe;
+                        background-color: rgb(252, 132, 33);
                     }
                     .indesign {
                         width: 30%; 
-                        background-color: #5419fe;
+                        background-color: rgb(252, 132, 33);
                     }
                     
                     .placeholder {
